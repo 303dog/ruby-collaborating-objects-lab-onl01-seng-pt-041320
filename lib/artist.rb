@@ -7,7 +7,7 @@ class Artist
   def initialize(name)
     @name = name
     @@aLL = []
-    @@all << name 
+    #@@all << name 
   end 
   
   
