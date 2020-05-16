@@ -9,6 +9,10 @@ class Song
     @@all
   end
   
+    def add_song(song)
+    @songs << song
+  end
+  
   def self.new_by_filename(file)
     artist_name = file.split(" - ")[0]
     song_name = file.split(" - ")[1]
