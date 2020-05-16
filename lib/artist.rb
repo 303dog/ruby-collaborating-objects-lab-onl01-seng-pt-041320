@@ -13,6 +13,6 @@ class Artist
   
   
   def self.all 
-    @all
+    @all = all 
   end
 end 
