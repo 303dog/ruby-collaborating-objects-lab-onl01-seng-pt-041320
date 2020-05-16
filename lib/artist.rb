@@ -14,5 +14,6 @@ class Artist
   
   def self.all 
     @all 
+    puts self 
   end
 end 
