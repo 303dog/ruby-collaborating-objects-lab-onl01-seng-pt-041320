@@ -6,11 +6,7 @@ class Song
   end
 
   def self.all 
-    @@all
-  end
-  
-    def add_song(song)
-    @songs << song
+    @@all << self 
   end
   
   def self.new_by_filename(file)
